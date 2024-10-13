@@ -1,0 +1,3 @@
+[submodule "mlh-renderer"]
+	path = mlh-renderer
+	url = https://github.com/mxHuber/mlh-renderer
