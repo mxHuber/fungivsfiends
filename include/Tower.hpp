@@ -1,5 +1,5 @@
-#ifndef FVTF_TOWER_HPP
-#define FVTF_TOWER_HPP
+#ifndef FVF_TOWER_HPP
+#define FVF_TOWER_HPP
 
 class Tower {
 public:

@@ -1,5 +1,5 @@
-#ifndef FVTF_ENEMY_HPP
-#define FVTF_ENEMY_HPP
+#ifndef FVF_ENEMY_HPP
+#define FVF_ENEMY_HPP
 
 class Enemy {
 public:
