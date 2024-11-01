@@ -4,8 +4,8 @@
 int main() {
   mlh::Renderer App = mlh::Renderer();
 
-  App.setShader("../mlh-renderer/resources/Shaders/Vertex.shader",
-                "../mlh-renderer/resources/Shaders/Fragment.shader");
+  App.setShader("../external/mlh-renderer/resources/Shaders/Vertex.shader",
+                "../external/mlh-renderer/resources/Shaders/Fragment.shader");
   // App.addQuad(mlh::QuadGenerator::getQuad());
   // TODO: load TestLevel.yaml
   // TODO: add buttons for fungi that select them
