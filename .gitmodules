@@ -1,3 +1,6 @@
-[submodule "mlh-renderer"]
-	path = mlh-renderer
+[submodule "external/mlh-renderer"]
+	path = external/mlh-renderer
 	url = https://github.com/mxHuber/mlh-renderer
+[submodule "external/json"]
+	path = external/json
+	url = git@github.com:nlohmann/json.git
