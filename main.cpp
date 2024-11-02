@@ -1,4 +1,4 @@
-#include <QuadGenerator.hpp>
+#include "GameFileLoader.hpp"
 #include <Renderer.hpp>
 
 int main() {
@@ -6,6 +6,7 @@ int main() {
 
   App.setShader("../external/mlh-renderer/resources/Shaders/Vertex.shader",
                 "../external/mlh-renderer/resources/Shaders/Fragment.shader");
+  GameFileLoader::loadFile("../resources/files/testfile1.json", App);
   // App.addQuad(mlh::QuadGenerator::getQuad());
   // TODO: load TestLevel.yaml
   // TODO: add buttons for fungi that select them
